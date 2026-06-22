@@ -21,7 +21,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: [config.frontendUrl, 'http://localhost:5173', 'https://whtsup.netlify.app'],
+    origin: [config.frontendUrl, 'http://localhost:5173', 'https://whtsup.netlify.app/', 'https://whtsup.netlify.app/api'],
     credentials: true,
   }),
 );
