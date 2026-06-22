@@ -21,7 +21,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: [config.frontendUrl, 'http://localhost:5173'],
+    origin: [config.frontendUrl, 'http://localhost:5173', 'https://wbot2-0-f.vercel.app'],
     credentials: true,
   }),
 );
