@@ -21,7 +21,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: [config.frontendUrl, 'http://localhost:5173', 'https://cheerful-platypus-d7f845.netlify.app', 'https://6a391e7a0e7ad82e5bd808d1--cheerful-platypus-d7f845.netlify.app'],
+    origin: [config.frontendUrl, 'http://localhost:5173', 'https://whtsup.netlify.app/', 'https://whtsup.netlify.app/api'],
     credentials: true,
   }),
 );
