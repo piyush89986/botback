@@ -21,7 +21,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: [config.frontendUrl, 'http://localhost:5173', 'https://wbot2-0-f.vercel.app'],
+    origin: [config.frontendUrl, 'http://localhost:5173', 'https://6a391e7a0e7ad82e5bd808d1--cheerful-platypus-d7f845.netlify.app'],
     credentials: true,
   }),
 );
